@@ -1,0 +1,94 @@
+/*==================== Google fonts link ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*==================== Css variables ====================*/
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+/*==================== Html reset ====================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*==================== Base ====================*/
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: var(--Light-gray);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: 'Outfit', sans-serif;
+  padding: 0 1rem;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*==================== QR code component ====================*/
+.card-container{
+  max-width: 310px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .075);
+  background: var(--White);
+  padding: 1.5rem 1rem 2rem;
+  border-radius: 20px;
+  display: grid;
+}
+
+.card__img{
+  width: 260px;
+  justify-self: center;
+  border-radius: 10px;
+}
+
+.card__data{
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.card__title{
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  color: var(--Dark-blue);
+}
+
+.card__description{
+  line-height: 1.5;
+  color: var(--Grayish-blue);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.attribution{
+  font-size: .913rem;
+  color: var(--Dark-blue);
+  text-align: center;
+}
+
+.attribution a{
+  color: var(--Dark-blue);
+}
+
+/*==================== Media queries ====================*/
+
+@media (max-width: 375px) {
+  .card__img{
+    width: 250px;
+  }
+
+  .card-container{
+    max-width: 320px;
+  }
+}
