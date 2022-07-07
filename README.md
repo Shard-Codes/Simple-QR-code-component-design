@@ -1,9 +1,36 @@
-# Who I Am
-My name is ethan james, I am 14 years old and I am a junior programmer.
+# Frontend Mentor - QR code component
 
-# The Languages I Know
-I currently know Html, and Css and I am currently learning javascript.
+This is a solution to the [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-# About This Project
+## Table of contents
 
-The project I made here today is a simple QR code component design. I used Html, and Css to make this project and honestly this was fun to make and i hope you enjoy making as well.
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Author](#author)
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+
+### Screenshot
+
+![](/images/webpage.jpg.png)
+
+### Links
+
+- Solution URL: [Frontend mentor solution link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- Live Site URL: [The deployed project link](https://qr-code-website.netlify.app/)
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+
+## Author
+
+- Frontend Mentor - [@Shard-Codes](https://www.frontendmentor.io/profile/Shard-Codes)
