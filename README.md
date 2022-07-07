@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend mentor solution link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- Solution URL: [Frontend mentor solution link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub/simple-qr-code-component-design-html-css-OX1F04q8V_)
 - Live Site URL: [The deployed project link](https://qr-code-website.netlify.app/)
 
 
