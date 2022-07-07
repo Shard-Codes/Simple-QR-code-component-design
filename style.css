@@ -37,10 +37,10 @@ img{
 
 /*==================== QR code component ====================*/
 .card-container{
-  max-width: 310px;
+  max-width: 290px;
   box-shadow: 0 0 20px rgba(0, 0, 0, .075);
   background: var(--White);
-  padding: 1.5rem 1rem 2rem;
+  padding: 1rem 0 2rem;
   border-radius: 20px;
   display: grid;
 }
@@ -55,10 +55,11 @@ img{
   width: 100%;
   text-align: center;
   margin-top: 1.5rem;
+  padding: 0 1rem;
 }
 
 .card__title{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 1.25rem;
   font-weight: 700;
   color: var(--Dark-blue);
@@ -89,6 +90,10 @@ img{
   }
 
   .card-container{
-    max-width: 320px;
+    max-width: 300px;
+  }
+  
+  .card__description{
+    font-size: .913rem;
   }
 }
